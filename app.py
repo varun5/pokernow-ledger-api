@@ -110,5 +110,4 @@ def get_payment_strings():
     
     return jsonify({'payment_strings': payment_strings})
 
-if __name__ == '__main__':
-    app.run()  # For development purposes only, remove debug=True for production deployment
+
